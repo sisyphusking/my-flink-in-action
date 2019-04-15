@@ -33,6 +33,9 @@ public class DataClean {
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
+        //这里需要设置并行度，一般和kafka的partition数量保持一致
+        env.setParallelism(5);
+
         env.enableCheckpointing(60000);
         env.getCheckpointConfig().setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
         env.getCheckpointConfig().setMinPauseBetweenCheckpoints(30000);

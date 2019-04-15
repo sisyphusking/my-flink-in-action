@@ -3,3 +3,5 @@ target/*
 *.imi
 data-clean/target/*
 data-clean/.idea/*
+KafkaFlinkElastic/target/*
+KafkaFlinkElastic/.idea/*
