@@ -5,3 +5,7 @@ data-clean/target/*
 data-clean/.idea/*
 KafkaFlinkElastic/target/*
 KafkaFlinkElastic/.idea/*
+icu-monitor/target/*
+icu-monitor/.idea/*
+my-flink-in-action.iml
+/flink-basic/target/*
