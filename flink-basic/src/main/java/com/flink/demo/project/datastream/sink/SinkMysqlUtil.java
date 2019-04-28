@@ -1,4 +1,4 @@
-package com.flink.demo.project.datastream.main;
+package com.flink.demo.project.datastream.sink;
 
 import com.flink.demo.project.datastream.util.JDBCUtil;
 import org.apache.commons.lang3.builder.EqualsBuilder;
